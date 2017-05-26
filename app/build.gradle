@@ -31,6 +31,13 @@ dependencies {
     //针对 JDK 7 或 JDK 8
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     compile "org.jetbrains.anko:anko-common:$anko_version"
+
+    compile "com.squareup.retrofit2:retrofit:$retrofit_version"
+    compile "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    compile "com.squareup.retrofit2:adapter-rxjava:$retrofit_version"
+    compile "io.reactivex:rxkotlin:$rxkotlin_version"
+    compile "io.reactivex:rxandroid:$rxandroid_version"
+
 }
 repositories {
     mavenCentral()
